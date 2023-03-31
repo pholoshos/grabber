@@ -1,6 +1,0 @@
-# .npmignore
-node_modules
-tests
-public
-src
-index.tsx
