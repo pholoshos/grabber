@@ -7,6 +7,7 @@ npm i api-grabber
 
 ## Usage
 
+```javascript
 import { GrabberRequest } from "api-grabber";
 import { IRequest } from "api-grabber/dist/components";
 import { useState } from "react";
@@ -42,4 +43,5 @@ export const MyComponent = () => {
   );
 };
 
-
+end
+```
