@@ -1,7 +1,8 @@
 {
   "name": "api-grabber",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/index.js",
+  "keywords": ["fetch react data","fetcher","Api Grabber"],
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
