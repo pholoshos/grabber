@@ -22,6 +22,7 @@ export const MyComponent = () => {
   const [request, setRequest] = useState<IRequest>({
     onGetData,
     onError,
+    isRequest: true,
     onLoading,
     path: "http://localhost:3000/user",
     method :'GET'
@@ -30,6 +31,7 @@ export const MyComponent = () => {
   const getPosts = ()=>{
     setRequest({
         ...request,
+          isRequest: true,
         path: "http://localhost:3000/posts",
   
     })
